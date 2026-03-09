@@ -1,3 +1,4 @@
+import developer from "../assets/developer.avif";
 function Hero() {
   return (
     <section id="home" className="hero">
@@ -15,10 +16,11 @@ function Hero() {
         </div>
       </div>
 
-      <div className="hero-right">
-        <img src="developer.avif" alt="developer" />
-      </div>
+     <div className="hero-right">
+      <img src={developer} alt="developer" />
+     </div>
     </section>
+    
   );
 }
 
